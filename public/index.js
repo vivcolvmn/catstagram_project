@@ -106,6 +106,10 @@ window.onload = () => {
                 deleteComment.className = "delete";
                 commentPost.appendChild(deleteComment);
                 commentIn.value = "";
+
+                deleteComment.addEventListener("click", () => {
+                    commentPost.remove();
+                })
             }
 
         })
