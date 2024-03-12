@@ -1,0 +1,118 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(106, 15, 129);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, rgba(165, 28, 199, 0.2), rgba(123, 10, 118, 0.8)), url("./catstagram background.avif");
+}
+
+img {
+    height: 450px;
+    width: auto;
+    margin-bottom: 10px;
+    border: 5px solid rgb(106, 15, 129);
+    border-radius: 7px;
+}
+
+h1 {
+    padding: 5px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+h2 {
+    font-size:21px;
+    padding: 5px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.newCat {
+    margin-right: 2.5px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.upVote {
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.downVote {
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.openComments {
+    margin-left: 2.5px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.commentAdd {
+    padding: 5px;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 20px;
+}
+
+.commentsList {
+    width: 750px;
+    height: 500px;
+    overflow: scroll;
+    border: 5px solid rgb(106, 15, 129);
+    background-color: rgb(255, 248, 220, 0.8);
+    border-radius: 7px;
+
+}
+
+li {
+    margin: 2.5px;
+}
+
+.delete {
+    color: rgb(106, 15, 129);
+    margin-left: 2.5px;
+}
+
+#commentInput {
+    color: rgb(106, 15, 129);
+    margin: 2.5px;
+}
+
+#submit {
+    color: rgb(106, 15, 129);
+    margin: 2.5px;
+}
+
+#closeComments {
+    color: rgb(106, 15, 129);
+    margin: 2.5px;
+}
