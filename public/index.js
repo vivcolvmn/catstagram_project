@@ -1,10 +1,5 @@
 // Your code here
 window.onload = () => {
-    //header
-    const h1 = document.createElement("h1");
-    document.body.appendChild(h1);
-    h1.innerText = "Catstagram";
-
     //fetch cat image from cat api
     const img = document.createElement("img");
     fetch("https://api.thecatapi.com/v1/images/search")
