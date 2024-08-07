@@ -1,4 +1,6 @@
 // Your code here
+
+
 window.onload = () => {
     //fetch cat image from cat api
     const img = document.createElement("img");
@@ -12,8 +14,7 @@ window.onload = () => {
     document.body.appendChild(img);
 
     //create popularity score container
-    const h2 = document.createElement("h2");
-    document.body.appendChild(h2);
+    const h2 = document.querySelector("h2");
     let score = 0;
     h2.innerText = `Pawpurrlarity Level: ${score}`;
 
